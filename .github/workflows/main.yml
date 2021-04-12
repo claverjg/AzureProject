@@ -26,7 +26,7 @@ jobs:
       with:
         azcliversion: 2.0.72
         inlineScript: |
-           az cdn endpoint purge --content-paths  "/*" --profile-name "ClaverConsulting" --name "ClaverConsulting" --resource-group "rg_cg_resume"
+           az cdn endpoint purge --content-paths  "/*" --profile-name "ClaverConsulting" --name "ceevee" --resource-group "rg_cg_resume"
 
   # Azure logout 
     - name: logout
